@@ -1,0 +1,8 @@
+Ruta GET:
+Esta ruta se utiliza para consultar o obtener información del servidor. Cuando un usuario la visita, el servidor responde enviando los datos solicitados.
+
+Ruta POST:
+Esta ruta se utiliza para enviar o registrar información en el servidor. Los datos enviados por el usuario son recibidos y almacenados o procesados por la aplicación.
+
+Ruta principal (/):
+Es la ruta inicial de la aplicación. Generalmente muestra un mensaje de bienvenida o información básica cuando se accede al servidor.
