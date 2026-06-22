@@ -1,0 +1,22 @@
+Al realizar una petición POST a la ruta `/reportes` con el siguiente JSON:
+
+{
+"tipo": "Infraestructura",
+"descripcion": "Daño en alumbrado público"
+}
+
+el servidor registra el reporte y lo almacena en la lista de reportes.
+
+Posteriormente, al consultar la ruta GET `/reportes`, el servidor devuelve un arreglo JSON con todos los reportes registrados hasta el momento. En la respuesta se puede observar la información almacenada, incluyendo el identificador, el tipo de reporte y la descripción proporcionada por el ciudadano.
+
+Ejemplo de respuesta:
+
+[
+{
+"id": 1,
+"tipo": "Infraestructura",
+"descripcion": "Daño en alumbrado público"
+}
+]
+
+Esto demuestra que la API permite guardar información mediante POST y recuperarla mediante GET.
