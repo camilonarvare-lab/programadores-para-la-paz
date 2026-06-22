@@ -1,0 +1,12 @@
+Al ejecutar node server.js, se inicia el servidor de la aplicación y queda listo para recibir solicitudes de los usuarios.
+
+En la terminal aparece un mensaje indicando que el servidor está funcionando y escuchando en un puerto determinado.
+
+Cuando se visita la ruta /estado desde el navegador, el servidor responde con información sobre su estado actual.
+
+La respuesta esperada es:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
