@@ -1,0 +1,5 @@
+1. Implementar autenticación en dos pasos para los usuarios.
+2. Realizar copias de seguridad periódicas de la información.
+3. Mantener el sistema y las aplicaciones actualizadas.
+4. Verificar y validar los datos ingresados por los usuarios.
+5. Monitorear actividades sospechosas y generar alertas de seguridad.
